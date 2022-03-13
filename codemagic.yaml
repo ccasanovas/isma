@@ -14,7 +14,6 @@ workflows:
                   # See the following link for more details - https://docs.codemagic.io/code-signing-yaml/signing-ios/
                   # https://appstoreconnect.apple.com/access/api
                 - certificate_credentials # <-- (Includes CERTIFICATE_PRIVATE_KEY - Put your Certificate Private Key here)
-                - other
             vars:
                 # Ionic Xcode worskspace and scheme
                 XCODE_WORKSPACE: "ios/App/App.xcworkspace"
