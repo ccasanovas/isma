@@ -57,7 +57,7 @@ workflows:
             - name: Set up signing certificate (Use with manual code signing)
               script: |
                 echo $CM_CERTIFICATE | base64 --decode > /tmp/certificate.p12
-                keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password h3o9p7325r
+                keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password $CM_CERTIFICATE_PASSWORD
             - name: Add certificates to keychain
               script: |
                 keychain add-certificates
@@ -67,7 +67,7 @@ workflows:
                 set -e
                 set -x
                 cd $FCI_BUILD_DIR/ios/App
-                # agvtool new-version -all $(($BUILD_NUMBER +0.01))
+                # agvtool new-version -all $(($BUILD_NUMBER +1))
                 agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
             - name: Set up code signing settings on Xcode project
               script: |
