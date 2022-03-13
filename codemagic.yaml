@@ -19,7 +19,7 @@ workflows:
                 XCODE_WORKSPACE: "ios/App/App.xcworkspace"
                 XCODE_SCHEME: "App"
                 APP_STORE_APP_ID: LTWKRS8WF9 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
-            node: latest
+            node: 10.16.0
             xcode: latest
             cocoapods: default
         triggering:
@@ -33,13 +33,13 @@ workflows:
             - name: Install npm dependencies for Ionic project
               script: |
                 npm install && npm run build:prod
-            - name: Cocoapods installation
-              script: |
-                cd ios/App && pod install
             - name: Update dependencies and copy web assets to native project
               script: |
                 # npx cap copy # <- use this is you don't need to update native dependencies
                 npx cap add ios # <- update native dependencies and copy web assets to native project
+            - name: Cocoapods installation
+              script: |
+                cd ios/App && pod install
             - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
               script: |
                 keychain initialize
