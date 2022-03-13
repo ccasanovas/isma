@@ -40,24 +40,24 @@ workflows:
             - name: Cocoapods installation
               script: |
                 cd ios/App && pod install
-            - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
-              script: |
-                keychain initialize
-            # - name: Set up Provisioning profiles from environment variables (Use with manual code signing)
-            #   script: |
-            #     PROFILES_HOME="$HOME/Library/MobileDevice/Provisioning Profiles"
-            #     mkdir -p "$PROFILES_HOME"
-            #     PROFILE_PATH="$(mktemp "$PROFILES_HOME"/$(uuidgen).mobileprovision)"
-            #     echo ${CM_PROVISIONING_PROFILE} | base64 --decode > "$PROFILE_PATH"
-            #     echo "Saved provisioning profile $PROFILE_PATH"
-            - name: Fetch signing files
-              script: |
-                # app-store-connect fetch-signing-files "com.nevercode.ncionicapp" --type IOS_APP_STORE --create
-                app-store-connect fetch-signing-files "ar.com.siwca.coope.cooperativas.isma" --type IOS_APP_STORE --create
-            # - name: Set up signing certificate (Use with manual code signing)
-            #   script: |
-            #     echo $CM_CERTIFICATE | base64 --decode > /tmp/certificate.p12
-            #     keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password $CM_CERTIFICATE_PASSWORD
+            #- name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+            #  script: |
+            #    keychain initialize
+             - name: Set up Provisioning profiles from environment variables (Use with manual code signing)
+               script: |
+                 PROFILES_HOME="$HOME/Library/MobileDevice/Provisioning Profiles"
+                 mkdir -p "$PROFILES_HOME"
+                 PROFILE_PATH="$(mktemp "$PROFILES_HOME"/$(uuidgen).mobileprovision)"
+                 echo ${CM_PROVISIONING_PROFILE} | base64 --decode > "$PROFILE_PATH"
+                 echo "Saved provisioning profile $PROFILE_PATH"
+            #- name: Fetch signing files
+            #  script: |
+            #    # app-store-connect fetch-signing-files "com.nevercode.ncionicapp" --type IOS_APP_STORE --create
+            #    app-store-connect fetch-signing-files "ar.com.siwca.coope.cooperativas.isma" --type IOS_APP_STORE --create
+             - name: Set up signing certificate (Use with manual code signing)
+               script: |
+                 echo $CM_CERTIFICATE | base64 --decode > /tmp/certificate.p12
+                 keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password $CM_CERTIFICATE_PASSWORD
 
             - name: Add certificates to keychain
               script: |
