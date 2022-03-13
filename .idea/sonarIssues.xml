@@ -448,6 +448,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/ios/App/App/Info.plist">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ios/App/Entitlements.plist">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/ios/App/Podfile">
           <value>
             <set />
@@ -599,6 +609,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/static/firebase-messaging-sw.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/capacitor.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/codemagic.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/ionic.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/package.json">
           <value>
             <set />
           </value>
