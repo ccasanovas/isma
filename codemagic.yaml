@@ -18,7 +18,7 @@ workflows:
                 # Ionic Xcode worskspace and scheme
                 XCODE_WORKSPACE: "ios/App/App.xcworkspace"
                 XCODE_SCHEME: "App"
-                APP_STORE_APP_ID: LTWKRS8WF9 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
+                APP_STORE_APP_ID: 1614009676 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
             node: 12.4.0
             xcode: latest
             cocoapods: default
