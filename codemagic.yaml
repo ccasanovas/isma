@@ -36,7 +36,7 @@ workflows:
             - name: Update dependencies and copy web assets to native project
               script: |
                 # npx cap copy # <- use this is you don't need to update native dependencies
-                npx cap add ios # <- update native dependencies and copy web assets to native project
+                npx cap sync ios # <- update native dependencies and copy web assets to native project
             - name: Cocoapods installation
               script: |
                 cd ios/App && pod install
