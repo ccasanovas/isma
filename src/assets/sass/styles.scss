@@ -1,0 +1,39 @@
+// fonts
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/fonts/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('assets/fonts/Montserrat-Medium.ttf'); 
+}
+
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Import custom variables for bootstrap
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Import Lightbox
+@import "~lightbox2/dist/css/lightbox.css";
+
+
+// Import custom variables for emojione picker
+//@import "emojionearea-variables";
+
+// Import emojione picker
+//@import "../../../node_modules/emojionearea/scss/emojionearea";
+@import "~emojionearea/dist/emojionearea.css";
+
+
+// And finally our Evil Stylesheets
+@import "layout";
+@import "layout-desktop";
+
+@import "login";
+

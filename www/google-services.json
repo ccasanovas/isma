@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576374877660",
+    "firebase_url": "https://siwca-7bf54.firebaseio.com",
+    "project_id": "siwca-7bf54",
+    "storage_bucket": "siwca-7bf54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576374877660:android:b8e79360ea063feb5a3319",
+        "android_client_info": {
+          "package_name": "ar.com.siwca.coope.cooperativas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576374877660-obpikfgeae5gmrb30cb3h6f5i5brav94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OtpOY894PyKcaKQwqvZsX_Fpgpxqyu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576374877660-obpikfgeae5gmrb30cb3h6f5i5brav94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

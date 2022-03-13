@@ -1,0 +1,12 @@
+
+HWeb:TableWithoutCaptionCheck<" Add a description to this table.(ÿŽšŠ
+Rjavascript:S1854þ"5Remove this useless assignment to variable "payment".(úˆ
+gjavascript:UnusedVariable§"<Remove the declaration of the unused 'dataPayment' variable.(¿ÁÃƒûÿÿÿÿ
+C	Web:S1827Q")Remove this deprecated "scope" attribute.(Éäý¤ûÿÿÿÿ
+Zjavascript:UnusedVariableÃ"5Remove the declaration of the unused 'test' variable.(ŽÄ£
+Rjavascript:S1117¨"5'dataPayment' is already declared in the upper scope.(ÿÅÇú
+g Web:TableHeaderHasIdOrScopeCheck>";Add either an 'id' or a 'scope' attribute to this <th> tag.(›ŸŠÏ
+Njavascript:S1854Ã"2Remove this useless assignment to variable "test".(ŽÄ£
+>	Web:S1827R")Remove this deprecated "scope" attribute.(žš„Œ
+[javascript:S1854§"9Remove this useless assignment to variable "dataPayment".(¿ÁÃƒûÿÿÿÿ
+f Web:TableHeaderHasIdOrScopeCheck?";Add either an 'id' or a 'scope' attribute to this <th> tag.(ðþ¤

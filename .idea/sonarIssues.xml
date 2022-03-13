@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$USER_HOME$/Downloads/frontendsiwca/build/service-worker-mobile.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/frontendsiwca/src/pages/ServicesAssociation/Home.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/frontendsiwca/src/pages/ServicesAssociation/PaymentAccount.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/allnative/all-native-full/config/.env.example">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/core-service/config/routes.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/core-service/src/Controller/Api/V1/AdvertisingController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/repos/core-service/config/app.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/repos/core-service/config/awsapigateway.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/repos/core-service/config/routes.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/repos/core-service/src/Controller/Api/V1/AdvertisingController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/innovagroup/repos/core-service/src/Model/Entity/Advertising.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/vuexy-html-bootstrap5-admin-template/app-assets/css/bootstrap.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/vuexy-html-bootstrap5-admin-template/core-service-template/auth-forgot-password-cover.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/ccasanovasgit/vuexy-html-bootstrap5-admin-template/core-service-template/auth-login-cover.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/.docker/api-power/dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/android/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/android/app/src/main/java/ar/com/idata/suite/copropietarios/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/capacitor.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/entrypoint.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/ionic.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/App.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/.directory">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/_bootstrap-variables.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/_emojionearea-variables.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/_layout-desktop.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/_layout.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/_login.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/assets/sass/styles.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/components/OwnersAssociation/Chats/AttachmentsModal.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/mixins/CoreService.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/routes/router.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-v2/src/views/MercadoPago/Pay.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-web/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-web/src/pages/OwnersAssociation/Amenities/BookAmenity.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-copropietarios-web/src/pages/OwnersAssociation/PaymentNotification.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-infra-api-power/.ebextensions/install_gmp.config">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-infra-api-power/.ebextensions/php-settings.config">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-infra-api-power/.ebextensions/php-settings_install_gmp.config">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-infra-api-power/src/controllers/SuiteController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-infra-api-power/src/includes/CognitoClient.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/.ebextensions/004_install_supervisord.config">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/config/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/config/Migrations/20210823164204_AddOwnersAssociationPrivilegesToUsers.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/config/Migrations/20211224132410_FixUsersAndInteractiveInvoices.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/config/app.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/config/routes.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Administrator/DocumentsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Administrator/NewsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Administrator/OwnersAssociationsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/AdministrationsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/BookingsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/DocumentsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/FunctionalUnitsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/InteractiveInvoicesController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/OwnersAssociationsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/PeriodsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/Api/V1/SettlementsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/S2s/V1/ApiUsersController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/S2s/V1/ExpensesNotificationsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Controller/S2s/V1/PaymentsListenerController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Listener/ApiUserEventsListener.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Model/Entity/InteractiveInvoices.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Model/Table/OwnersAssociationsTable.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Template/Cie/V1/Home/index.ctp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-core/src/Utility/Utilities.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/suite-users/src/Controller/CognitoController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.firebaserc.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/android/app/src/main/java/ar/com/siwca/coope/cooperativas/ipr/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/android/app/src/main/java/ar/com/siwca/coope/cooperativas/isma/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/build.prod.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/service-worker-mobile.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/webpack.mobile.conf.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/webpack.prod.conf.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/capacitor.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/codemagic.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/prod.env.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config_del_main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/entrypoint.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/firebase.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ionic.config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ios/App/Podfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/.directory">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/App.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/assets/sass/_bootstrap-variables.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/assets/sass/designLoginPage.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/assets/sass/styles.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Chats/SendMessageForm.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/PDFView.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mixins/CoreService.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mixins/PDFService.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/Chats/CooperativeChat.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/NoConnection.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/PDFView.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/Advertising.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/AdvertisingList.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/Amenities/AmenityDetail.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/Documents.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/DocumentsAll.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/DocumentsDetail.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/Home.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/NewsDetail.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/NotificationsPayment/NotificationsPaymentDetail.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/PaymentAccount.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/PaymentNotification.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/ServicesAssociation/Settlements.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/registerServiceWorker.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/router/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/store/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/static/firebase-messaging-sw.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

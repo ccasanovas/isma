@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ar.com.siwca.coope.cooperativas.isma" version="1.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>IPR</name>
+    <description>
+        Instituto ISMA
+    </description>
+    <author email="sistemas@siwca.com.ar" href="http://cordova.io">
+        SIWCA
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+        <resource-file src="res/icon/android/notification/drawable-hdpi/ic_stat_notification.png" target="app/src/main/res/drawable-hdpi/notification_icon.png" />
+        <resource-file src="res/icon/android/notification/drawable-mdpi/ic_stat_notification.png" target="app/src/main/res/drawable-mdpi/notification_icon.png" />
+        <resource-file src="res/icon/android/notification/drawable-xhdpi/ic_stat_notification.png" target="app/src/main/res/drawable-xhdpi/notification_icon.png" />
+        <resource-file src="res/icon/android/notification/drawable-xxhdpi/ic_stat_notification.png" target="app/src/main/res/drawable-xxhdpi/notification_icon.png" />
+        <resource-file src="res/icon/android/notification/drawable-xxxhdpi/ic_stat_notification.png" target="app/src/main/res/drawable-xxxhdpi/notification_icon.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="40" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="57" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="72" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="29" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="50" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" src="res/icon/ios/icon-50@2x.png" width="100" />
+    </platform>
+    <feature name="CDVWKWebViewEngine">
+      <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-inappbrowser" spec="https://github.com/kleeb/cordova-plugin-inappbrowser.git" source="git" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-androidx" spec="^3.0.0" />
+    <plugin name="cordova-plugin-androidx-adapter" spec="^1.1.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="android" spec="^8.1.0" />
+</widget>

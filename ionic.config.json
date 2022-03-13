@@ -1,0 +1,8 @@
+{
+  "name": "ISMA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "dev_push": true
+}

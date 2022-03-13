@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Last-Modified" content="0">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+    <meta charset="utf-8">
+    <html lang="es">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Instituto Superior  | Marista </title>
+    <meta name="description" content="Gestiona tu comunicación">
+    <base href="./">
+    <link rel="icon" type="image/png" sizes="72x72" href="<%= htmlWebpackPlugin.files.publicPath %>static/assets/img/favicon.png">
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">-->
+    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.png"><![endif]-->
+    <!-- Add to home screen for Android and modern mobile browsers -->
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
+    <meta name="theme-color" content="#05283b">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="siwca.com.ar">
+    <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/icon-152x152.png">
+    <link rel="mask-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon.png" color="#4DBA87">
+    <!-- Add to home screen for Windows -->
+    <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#05283b">
+    <% for (var chunk of webpack.chunks) {
+        for (var file of chunk.files) {
+          if (file.match(/\.(js|css)$/)) { %>
+    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
+</head>
+<body>
+
+    <noscript>Para visualizar esta página, necesitás tener habilitado JavaScript en tu navegador</noscript>
+
+    <div id="app"></div>
+
+    <!-- Service worker is now loaded by Firebase -->
+    <!--<%= htmlWebpackPlugin.options.serviceWorkerLoader %>-->
+
+    <% if(process.env.NODE_ENV == 'mobile') { %>
+    <script src="cordova.js"></script>
+    <% } %>
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emojione@4.5.0/lib/js/emojione.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q2B9C4CXZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8Q2B9C4CXZ');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147236617-1');
+</script>-->
+</body>
+</html>
