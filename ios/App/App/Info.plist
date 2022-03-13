@@ -50,5 +50,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
     <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
 </dict>
 </plist>
