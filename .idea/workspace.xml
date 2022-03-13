@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6d0c2b-f66d-4b2b-b300-d680ec63cccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ebd193810e482204e2def01694d17883676ce5c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb925e10b288a1c45a34b34e64261e90b4fc755c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d248c34e6972504e2a7867fe7fe2b44695a3f923" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d96cb465662e47162aa36e654c23ace384f553c7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f761570c4ae90a5577cea77748c77672342c8041" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c3a31994e1936086beff206910067b5d65ce2db" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c3a31994e1936086beff206910067b5d65ce2db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5441d5289c77ce615f0e420c266cdee5d78f3ecd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5441d5289c77ce615f0e420c266cdee5d78f3ecd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/747c1c47f37eed8ebbbe7922cdd4388504165309" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86ca9e474f353c7aef3894bf929bee23b2e75896" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86ca9e474f353c7aef3894bf929bee23b2e75896" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codemagic.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/codemagic.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codemagic.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +108,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="503000" />
+      <workItem from="1647182935891" duration="621000" />
     </task>
     <servers />
   </component>
