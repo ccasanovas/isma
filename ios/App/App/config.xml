@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <access origin="*" />
-  
+
   <feature name="InAppBrowser">
     <param name="ios-package" value="CDVWKInAppBrowser"/>
     <param name="onload" value="true"/>
   </feature>
+  <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription ">
+    <string>Need permissions for access to camera for upload attachments of enterprise documentation.</string>
+  </edit-config>
+  <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription ">
+    <string>Need permissions for access to photo library for upload attachments of enterprise documentation.</string>
+  </edit-config>
+  <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription ">
+    <string>Need permissions for access to photo library for upload attachments of enterprise documentation.</string>
+  </edit-config>
 
-  
 </widget>

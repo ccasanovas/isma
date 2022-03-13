@@ -22,12 +22,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-    <string>Need permissions for Camera for uploading attachments of enterprise documentation.</string>
-    <key>NSPhotoLibraryUsageDescription </key>
-    <string>Need permissions for access to photo library for uploading attachments of enterprise documentation.</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>Need permissions for access to photo library for uploading attachments of enterprise documentation.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
