@@ -7,13 +7,13 @@
     <param name="onload" value="true"/>
   </feature>
   <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription ">
-    <string>Need permissions for access to camera for upload attachments of enterprise documentation.</string>
+    <string>We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
   </edit-config>
   <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription ">
-    <string>Need permissions for access to photo library for upload attachments of enterprise documentation.</string>
+    <string>We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
   </edit-config>
   <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription ">
-    <string>Need permissions for access to photo library for upload attachments of enterprise documentation.</string>
+    <string>We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider.</string>
   </edit-config>
 
 </widget>
