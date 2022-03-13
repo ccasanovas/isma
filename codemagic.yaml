@@ -40,6 +40,11 @@ workflows:
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
+      - name: Add Permissions
+          script: |
+            cd ios/App/App && plutil -insert NSCameraUsageDescription -string "Need permissions for Camera for uploading attachments of enterprise documentation." Info.plist
+            && plutil -insert NSPhotoLibraryAddUsageDescription -string "Need permissions for access to photo library for uploading attachments of enterprise documentation." Info.plist
+            && plutil -insert NSPhotoLibraryUsageDescription -string "Need permissions for access to photo library for uploading attachments of enterprise documentation." Info.plist
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: |
           keychain initialize
