@@ -33,8 +33,6 @@ L
 android/google-services.json,e\0\e0cf97f09ea3a03c705a8f9f243e78952841e4f3
 P
  android/app/google-services.json,e\e\ee748fb75df5665a631a74614646f499f3cea78f
-
-Oandroid/app/src/main/java/ar/com/siwca/coope/cooperativas/ipr/MainActivity.java,7\4\747c1c47f37eed8ebbbe7922cdd4388504165309
 W
 'android/app/src/main/res/xml/config.xml,6\6\661ec37c7545a3c747333965afece811c4390734
 [
@@ -112,3 +110,13 @@ T
 $src/assets/sass/designLoginPage.scss,c\a\cae059912c67e16d06d0b4abe6fb965ea9f0336b
 K
 src/assets/sass/styles.scss,4\9\49ed85daac59543bb385fc01387df21dac70b32a
+R
+"src/pages/ServicesAssociations.vue,0\e\0ebd193810e482204e2def01694d17883676ce5c
+€
+Pandroid/app/src/main/java/ar/com/siwca/coope/cooperativas/isma/MainActivity.java,d\9\d96cb465662e47162aa36e654c23ace384f553c7
+D
+google-services.json,f\7\f761570c4ae90a5577cea77748c77672342c8041
+?
+ios/App/Podfile,b\b\bb925e10b288a1c45a34b34e64261e90b4fc755c
+>
+codemagic.yaml,d\2\d248c34e6972504e2a7867fe7fe2b44695a3f923
