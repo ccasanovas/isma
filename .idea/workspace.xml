@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6d0c2b-f66d-4b2b-b300-d680ec63cccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ios/App/Entitlements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codemagic.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/codemagic.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/App/App/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/App/App/Info.plist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,15 +56,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\siwca_app\ipr_app_ionic_capacitor\resources\android" />
-      <recent name="C:\siwca_app\ipr_app_ionic_capacitor\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\siwca_app\isma\ios\App\App" />
       <recent name="C:\siwca_app\ipr_app_ionic_capacitor\android" />
       <recent name="C:\siwca_app\ipr_app_ionic_capacitor\android\app" />
       <recent name="C:\siwca_app\ipr_app_ionic_capacitor" />
       <recent name="C:\siwca_app\ipr_app_ionic_capacitor\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\siwca_app\ipr_app_ionic_capacitor\resources\android" />
       <recent name="C:\siwca_app\ipr_app_ionic_capacitor\resources" />
     </key>
   </component>
@@ -112,7 +109,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="3282000" />
+      <workItem from="1647182935891" duration="4032000" />
     </task>
     <servers />
   </component>
