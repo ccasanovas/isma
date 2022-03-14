@@ -57,11 +57,15 @@ workflows:
       - name: Set up code signing settings on Xcode project
         script: |
           xcode-project use-profiles
-      - name: Set up code permissions
+      - name: Set up code permissions Camera
         script: |
-            plutil -insert NSCameraUsageDescription -string "We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
-            && plutil -insert NSPhotoLibraryAddUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
-            && plutil -insert NSPhotoLibraryAddUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
+          plutil -insert NSCameraUsageDescription -string "We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
+      - name: Set up code permissions Add Library
+        script: |
+          plutil -insert NSPhotoLibraryAddUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
+      - name: Set up code permissions Add Library
+        script: |
+          plutil -insert NSPhotoLibraryUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
       #- name: Set up signing certificate (Use with manual code signing)
       #  script: |
       #    echo $CM_CERTIFICATE | base64 --decode > /tmp/certificate.p12
