@@ -30,13 +30,34 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Install cordova res for splashs and icon
+        script: |
+          npm install -g cordova-res --unsafe-perm
       - name: Install npm dependencies for Ionic project
         script: |
           npm install && npm run build:prod
       - name: Update dependencies and copy web assets to native project
         script: |
           # npx cap copy # <- use this is you don't need to update native dependencies
-          npx cap sync ios # <- update native dependencies and copy web assets to native project
+          npx cap add ios # <- update native dependencies and copy web assets to native project
+      - name: Execute cordova res for splashs and icon
+        script: |
+          cordova-res ios --skip-config --copy
+      - name: Add Plist Permissions Camera
+        script: |
+          plutil -insert NSCameraUsageDescription -string "We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider." ios/App/App/Info.plist
+      - name: Add Plist Permissions PhotoLibrary
+        script: |
+          plutil -insert NSPhotoLibraryAddUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." ios/App/App/Info.plist
+      - name: Add Plist Permissions PhotoLibrary 2
+        script: |
+          plutil -insert NSPhotoLibraryUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." ios/App/App/Info.plist
+      - name: Add Plist Firebase
+        script: |
+          CP GoogleService-Info.plist ios/App/App/
+      - name: Add Plist Firebase 2
+        script: |
+          CP GoogleService-Info.plist ios/App/
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install

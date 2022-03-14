@@ -7,6 +7,42 @@
     <list default="true" id="eb6d0c2b-f66d-4b2b-b300-d680ec63cccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codemagic.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/codemagic.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@2x-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@2x-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@2x-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/Splash.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/capacitor.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/App/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/App/Podfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +145,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="20517000" />
+      <workItem from="1647182935891" duration="23930000" />
     </task>
     <servers />
   </component>
