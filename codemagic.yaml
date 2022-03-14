@@ -62,9 +62,6 @@ workflows:
           plutil -insert NSCameraUsageDescription -string "We require access to the camera to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
       - name: Set up code permissions Add Library
         script: |
-          plutil -insert NSPhotoLibraryAddUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
-      - name: Set up code permissions Add Library
-        script: |
           plutil -insert NSPhotoLibraryUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." $HOME/export_options.plist
       #- name: Set up signing certificate (Use with manual code signing)
       #  script: |
