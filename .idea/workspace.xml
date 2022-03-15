@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6d0c2b-f66d-4b2b-b300-d680ec63cccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AppDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codemagic.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/codemagic.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="24843000" />
+      <workItem from="1647182935891" duration="27631000" />
     </task>
     <servers />
   </component>
@@ -125,10 +125,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="520" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647189337614">
+    <state x="520" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647372984177">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="520" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1647189337614" />
+    <state x="520" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1647372984177" />
     <state x="580" y="336" key="FileChooserDialogImpl" timestamp="1647127572592">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>

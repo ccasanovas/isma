@@ -373,6 +373,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Podfile">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
           <value>
             <set />
@@ -624,6 +629,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/static/firebase-messaging-sw.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sierras/AppDelegate.swift">
           <value>
             <set />
           </value>
