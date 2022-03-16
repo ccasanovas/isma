@@ -58,9 +58,12 @@ workflows:
       - name: Add Plist Firebase 2
         script: |
           CP GoogleService-Info.plist ios/App/
-      #- name: Add SwiftDelegate modified
-      #  script: |
-      #    CP AppDelegate.swift ios/App/App/
+      - name: Add SwiftDelegate modified
+        script: |
+          rm -rf ios/App/App/AppDelegate.swift && CP AppDelegate.swift ios/App/App/
+      - name: Add Podfile Modified
+        script: |
+          rm -rf ios/App/Podfile && CP AppDelegate.swift ios/App/Podfile
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
