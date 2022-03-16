@@ -7,8 +7,8 @@ use_frameworks!
 install! 'cocoapods', :disable_input_output_paths => true
 
 def capacitor_pods
-  pod 'Capacitor', :path => '../../node_modules/@capacitor/ios'
-  pod 'CapacitorCordova', :path => '../../node_modules/@capacitor/ios'
+  pod 'Capacitor', :path => '..\..\node_modules\@capacitor\ios'
+  pod 'CapacitorCordova', :path => '..\..\node_modules\@capacitor\ios'
   pod 'CapacitorCommunityFcm', :path => '..\..\node_modules\@capacitor-community\fcm'
   pod 'CapacitorApp', :path => '..\..\node_modules\@capacitor\app'
   pod 'CapacitorAppLauncher', :path => '..\..\node_modules\@capacitor\app-launcher'
@@ -22,7 +22,7 @@ def capacitor_pods
   pod 'CapacitorPushNotifications', :path => '..\..\node_modules\@capacitor\push-notifications'
   pod 'CapacitorShare', :path => '..\..\node_modules\@capacitor\share'
   pod 'CapacitorStatusBar', :path => '..\..\node_modules\@capacitor\status-bar'
-  pod 'CordovaPlugins', :path => '../capacitor-cordova-ios-plugins'
+  pod 'CordovaPlugins', :path => '..\capacitor-cordova-ios-plugins'
 end
 
 target 'App' do
