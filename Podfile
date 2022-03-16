@@ -28,5 +28,5 @@ end
 target 'App' do
   capacitor_pods
   # Add your Pods here
-  pod 'Firebase/Messaging' # Add this line
+  pod 'Firebase/Messaging'
 end
