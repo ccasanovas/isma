@@ -52,7 +52,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="32464000" />
+      <workItem from="1647182935891" duration="33593000" />
     </task>
     <servers />
   </component>
@@ -131,10 +131,10 @@
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
     <state x="580" y="336" key="FileChooserDialogImpl/0.0.1600.1160@0.0.1600.1160" timestamp="1647127572592" />
-    <state x="301" y="223" key="SettingsEditor" timestamp="1644346240822">
+    <state x="301" y="223" key="SettingsEditor" timestamp="1647458172671">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="301" y="223" key="SettingsEditor/0.0.1600.1160@0.0.1600.1160" timestamp="1644346240822" />
+    <state x="301" y="223" key="SettingsEditor/0.0.1600.1160@0.0.1600.1160" timestamp="1647458172671" />
     <state x="486" y="296" width="758" height="638" key="find.popup" timestamp="1647200651318">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>

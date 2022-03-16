@@ -23,10 +23,10 @@ def capacitor_pods
   pod 'CapacitorShare', :path => '../../node_modules/@capacitor/share'
   pod 'CapacitorStatusBar', :path => '../../node_modules/@capacitor/status-bar'
   pod 'CordovaPlugins', :path => '../capacitor-cordova-ios-plugins'
+  pod 'FirebaseMessaging', :git => 'https://github.com/firebase/firebase-ios-sdk.git', :branch => 'master'
 end
 
 target 'App' do
   capacitor_pods
   # Add your Pods here
-  pod 'Firebase/Messaging'
 end
