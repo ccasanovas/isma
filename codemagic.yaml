@@ -64,12 +64,12 @@ workflows:
       - name: Add Podfile Modified
         script: |
           rm -rf ios/App/Podfile && CP AppDelegate.swift ios/App/Podfile
-      - name: Add SwiftDelegate modified
-        script: |
-          rm -rf ios/App/App/AppDelegate.swift && CP AppDelegate.swift ios/App/App/
       - name: Pod Update
         script: |
-          cd ios/App && pod install --repo-update
+          npx cap update ios
+      - name: Add SwiftDelegate modified
+        script: |
+            rm -rf ios/App/App/AppDelegate.swift && CP AppDelegate.swift ios/App/App/
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: |
           keychain initialize
