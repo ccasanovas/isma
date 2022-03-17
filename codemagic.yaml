@@ -61,9 +61,9 @@ workflows:
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
-      - name: Add Podfile Modified
-        script: |
-          rm -rf ios/App/Podfile && CP AppDelegate.swift ios/App/Podfile
+      #- name: Add Podfile Modified
+      #  script: |
+      #    rm -rf ios/App/Podfile && CP AppDelegate.swift ios/App/Podfile
       - name: Pod Update
         script: |
           npx cap update ios
