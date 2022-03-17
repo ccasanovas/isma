@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       FirebaseApp.configure()
       return true
     }
-    
+
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
         Messaging.messaging().token { (token, error) in

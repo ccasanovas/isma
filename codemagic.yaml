@@ -52,21 +52,18 @@ workflows:
       - name: Add Plist Permissions PhotoLibrary 2
         script: |
           plutil -insert NSPhotoLibraryUsageDescription -string "We require access to the photo library to use it to upload payment notification attachments and documentation in communication with the service provider." ios/App/App/Info.plist
-      - name: Add Plist Firebase
-        script: |
-          CP GoogleService-Info.plist ios/App/App/
-      - name: Add Plist Firebase 2
-        script: |
-          CP GoogleService-Info.plist ios/App/
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
-      #- name: Add Podfile Modified
-      #  script: |
-      #    rm -rf ios/App/Podfile && CP AppDelegate.swift ios/App/Podfile
       - name: Pod Update
         script: |
           npx cap update ios
+      - name: Add Plist Firebase
+        script: |
+          echo $GOOGLE_SERVICES_PLIST | base64 --decode > $FCI_BUILD_DIR/ios/App/App/GoogleService-Info.plist
+      - name: Add Plist Firebase 2
+        script: |
+          echo $GOOGLE_SERVICES_PLIST | base64 --decode > /Users/builder/Downloads/GoogleService-Info.plist
       - name: Add SwiftDelegate modified
         script: |
             rm -rf ios/App/App/AppDelegate.swift && CP AppDelegate.swift ios/App/App/
@@ -106,7 +103,6 @@ workflows:
         script: |
           xcode-project build-ipa --workspace "$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME" --verbose
     artifacts:
-      - $home/export_options.plist
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
