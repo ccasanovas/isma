@@ -21,7 +21,7 @@ workflows:
         APP_STORE_APP_ID: 1614009676 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
       node: 12.18.4
       xcode: 12
-      cocoapods: default
+      cocoapods: 1.6.1
     triggering:
       events:
         - push
