@@ -26,8 +26,8 @@ def capacitor_pods
 end
 
 target 'App' do
-  capacitor_pods
-  # Add your Pods here
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Messaging'
+capacitor_pods
+# Add your Pods here
+pod 'FirebaseCore', '7.11.0' # Add this line
+pod 'Firebase/Messaging', '7.11.0' # Add this line
 end
