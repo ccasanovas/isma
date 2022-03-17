@@ -69,7 +69,7 @@ workflows:
           rm -rf ios/App/App/AppDelegate.swift && CP AppDelegate.swift ios/App/App/
       - name: Pod Update
         script: |
-          cd ios/App && pod repo update
+          cd ios/App && pod install
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: |
           keychain initialize
