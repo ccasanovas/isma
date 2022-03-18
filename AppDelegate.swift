@@ -2,7 +2,6 @@ import UIKit
 import Capacitor
 import FirebaseCore
 import FirebaseMessaging
-import FirebaseOptions
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

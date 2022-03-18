@@ -223,6 +223,16 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/idata-suite/repos/idata-suite-core/src/Controller/Administrator/DocumentsController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/idata-suite/repos/idata-suite-core/src/Listener/ApiUserEventsListener.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/idata-suite/repos/suite-core/.ebextensions/004_install_supervisord.config">
           <value>
             <set />
