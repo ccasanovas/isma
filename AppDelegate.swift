@@ -2,6 +2,7 @@ import UIKit
 import Capacitor
 import FirebaseCore
 import FirebaseMessaging
+import FirebaseOptions
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -9,7 +10,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-      FirebaseApp.configure()
+      // Works
+      let options = FirebaseOptions(googleAppID: "1:576374877660:ios:12f371e64c1ddfc65a3319", gcmSenderID: "576374877660")
+      options.clientID = "576374877660-2gv4ku0vn6k0dd0t1dpakbhi8m2b4uiq.apps.googleusercontent.com"
+      options.apiKey = "AIzaSyC68aZUX0aPgdJE9dhLufLs5uCushRiMXY"
+      options.bundleID = "ar.com.siwca.coope.cooperativas.isma"
+      options.storageBucket = "siwca-7bf54.appspot.com"
+      options.databaseURL = "https://siwca-7bf54.firebaseio.com"
+      options.projectID = "siwca-7bf54"
+      FirebaseApp.configure(options: options)
       return true
     }
 
