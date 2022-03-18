@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6d0c2b-f66d-4b2b-b300-d680ec63cccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1644506620751" duration="11907000" />
       <workItem from="1647106864470" duration="1616000" />
       <workItem from="1647126356973" duration="15728000" />
-      <workItem from="1647182935891" duration="50049000" />
+      <workItem from="1647182935891" duration="51490000" />
     </task>
     <servers />
   </component>
@@ -135,10 +134,10 @@
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
     <state x="301" y="223" key="SettingsEditor/0.0.1600.1160@0.0.1600.1160" timestamp="1647458172671" />
-    <state x="486" y="296" width="758" height="638" key="find.popup" timestamp="1647200651318">
+    <state x="486" y="296" width="758" height="638" key="find.popup" timestamp="1647620724844">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="486" y="296" width="758" height="638" key="find.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1647200651318" />
+    <state x="486" y="296" width="758" height="638" key="find.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1647620724844" />
     <state x="463" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1641487894094">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
@@ -154,7 +153,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.vue</url>
-          <line>217</line>
+          <line>210</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

@@ -35,19 +35,19 @@
     import MainNav from '@/components/MainNav';
     import SiteFooter from '@/components/SiteFooter';
     import SendRequest from '@/components/sendRequest';
-    import { Capacitor, Plugins, AppState } from '@capacitor/core';
-    import { PushNotifications } from '@capacitor/push-notifications';
-    import { Network } from '@capacitor/network';
+    import {Capacitor, Plugins, AppState} from '@capacitor/core';
+    import {PushNotifications} from '@capacitor/push-notifications';
+    import {Network} from '@capacitor/network';
     import axios from 'axios';
 
-    const { App } = Plugins;
+    const {App} = Plugins;
 
     export default {
         name: 'app',
         data: function () {
             return {
                 isSending: false,
-               // fcm: new FCM()
+                // fcm: new FCM()
             }
         },
         components:
@@ -81,20 +81,25 @@
             try {
 
                 await this.$store.dispatch('runFirstLoad');
+                if ((Capacitor.getPlatform() === 'android') || (Capacitor.getPlatform() === 'ios')) {
+                    this.$store.dispatch('runFirstLoad');
 
-                if (process.env.NODE_ENV != 'mobile') {
-                    this.$fbmessaging.requestPermission()
-                        .then(() => {
-                            return this.$fbmessaging.getToken();
-                        })
-                        .then(token => {
-                            console.log(token);
-                            this.$store.dispatch('subscribeWebPushNotifications', token);
-                        })
-                        .catch(function (err) {
-                        });
+                } else {
+                    if (process.env.NODE_ENV != 'mobile') {
+                        this.$fbmessaging.requestPermission()
+                            .then(() => {
+                                return this.$fbmessaging.getToken();
+                            })
+                            .then(token => {
+                                console.log(token);
+                                this.$store.dispatch('subscribeWebPushNotifications', token);
+                            })
+                            .catch(function (err) {
+                            });
 
+                    }
                 }
+
                 if (process.env.VUE_APP_MODE === 'native') {
                     this.$store.dispatch('runFirstLoad');
                 }
@@ -105,7 +110,7 @@
                             axios.get('https://siwca.com.ar').then(result => {
                                 if (this.$route.name === 'sin-conexion') {
                                     this.setBackButton();
-                                    this.$router.push({ name: 'servicios' });
+                                    this.$router.push({name: 'servicios'});
                                 } else {
                                     return true;
                                 }
@@ -114,22 +119,21 @@
                                     return true;
                                 }
                                 this.unSetBackButton();
-                                this.$router.push({ name: 'sin-conexion' });
+                                this.$router.push({name: 'sin-conexion'});
 
                             });
                         } else if (`${status.connectionType}` === 'unknown') {
                             this.unSetBackButton();
-                            this.$router.push({ name: 'sin-conexion' });
+                            this.$router.push({name: 'sin-conexion'});
                         } else {
                             this.unSetBackButton();
-                            this.$router.push({ name: 'sin-conexion' });
+                            this.$router.push({name: 'sin-conexion'});
                         }
 
                         console.log('Network status changed', status);
                     });
 
                 }
-
 
 
             } catch (err) {
@@ -140,7 +144,7 @@
         methods:
             {
                 setBackButton() {
-                    App.addListener('backButton', ({ canGoBack }) => {
+                    App.addListener('backButton', ({canGoBack}) => {
                         if (!canGoBack) {
                             App.exitApp();
                         } else {
@@ -151,7 +155,7 @@
                     });
                 },
                 unSetBackButton() {
-                    App.addListener('backButton', ({ canGoBack }) => {
+                    App.addListener('backButton', ({canGoBack}) => {
                         if (!canGoBack) {
                             window.history.back();
                         } else {
@@ -166,7 +170,7 @@
                         axios.get('https://siwca.com.ar').then(result => {
                             if (this.$route.name === 'sin-conexion') {
                                 this.setBackButton();
-                                this.$router.push({ name: 'servicios' });
+                                this.$router.push({name: 'servicios'});
                             } else {
                                 return true;
                             }
@@ -175,14 +179,14 @@
                                 return true;
                             }
                             this.unSetBackButton();
-                            this.$router.push({ name: 'sin-conexion' });
+                            this.$router.push({name: 'sin-conexion'});
                         });
                     } else if (`${status.connectionType}` === 'unknown') {
                         this.unSetBackButton();
-                        this.$router.push({ name: 'sin-conexion' });
+                        this.$router.push({name: 'sin-conexion'});
                     } else {
                         this.unSetBackButton();
-                        this.$router.push({ name: 'sin-conexion' });
+                        this.$router.push({name: 'sin-conexion'});
                     }
                     console.log('Network status:', `${status.connectionType}`);
                 },
@@ -192,17 +196,6 @@
                     this.isSending = true;
 
                 },
-                showToken: async function() {
-                    this.token = await FCM.getToken().then(function(result) {
-                        console.log('el token es');
-                        console.log(result);
-                        return result
-                    }, function(err) {
-                        console.log(err);
-                        return err
-                    });
-                    this.viewToken = true;
-                }
             },
         mounted() {
             //console.log(PushNotifications);
@@ -211,48 +204,48 @@
             console.log("Capacitor platform is: " + device);
 
 
-const isPushNotificationsAvailable = Capacitor.isPluginAvailable('PushNotifications');
+            const isPushNotificationsAvailable = Capacitor.isPluginAvailable('PushNotifications');
 
-if (isPushNotificationsAvailable) {
+            if (isPushNotificationsAvailable) {
 
-            if ((Capacitor.getPlatform() === 'android') || (Capacitor.getPlatform() === 'ios')) {
+                if ((Capacitor.getPlatform() === 'android') || (Capacitor.getPlatform() === 'ios')) {
 
-                if (device === 'ios') {
-                    // Request permission to use push notifications
-                    // iOS will prompt user and return if they granted permission or not
-                    // Android and web will just grant without prompting
-                    PushNotifications.requestPermissions().then((result) => {
-                        alert(`Resultado ${JSON.stringify(result)}`);
-                    });
-                }
-                // Add registration error if there are.
-                PushNotifications.addListener('registrationError', (error) => {
-                    console.log(`error on register ${JSON.stringify(error)}`);
-                }),
-                    // Add Notification received
-                    PushNotifications.addListener(
-                        'pushNotificationReceived',
-                        (notification) => {
-                            console.log(`notification ${JSON.stringify(notification)}`);
-                        },
-                    ),
-                    // Add Action performed
-                    PushNotifications.addListener(
-                        'pushNotificationActionPerformed',
-                        async (notification) => {
-                            console.log('notification succeeded');
-                        },
-                    ),
-                    PushNotifications.addListener('registration', (token) => {
-                        console.log(`Push registration success, token: ${token.value}`);
-
-                        this.subscribePush(token.value).then((result) => {
-                            console.log(result);
+                    if (Capacitor.getPlatform() === 'ios') {
+                        // Request permission to use push notifications
+                        // iOS will prompt user and return if they granted permission or not
+                        // Android and web will just grant without prompting
+                        PushNotifications.requestPermissions().then((result) => {
                         });
-                    });
-                // Initialize the registration with FMC Token
-                PushNotifications.register();
-            }
+
+                    }
+                    // Add registration error if there are.
+                    PushNotifications.addListener('registrationError', (error) => {
+                        console.log(`error on register ${JSON.stringify(error)}`);
+                    }),
+                        // Add Notification received
+                        PushNotifications.addListener(
+                            'pushNotificationReceived',
+                            (notification) => {
+                                console.log(`notification ${JSON.stringify(notification)}`);
+                            },
+                        ),
+                        // Add Action performed
+                        PushNotifications.addListener(
+                            'pushNotificationActionPerformed',
+                            async (notification) => {
+                                console.log('notification succeeded');
+                            },
+                        ),
+                        PushNotifications.addListener('registration', (token) => {
+                            console.log(`Push registration success, token: ${token.value}`);
+
+                            this.subscribePush(token.value).then((result) => {
+                                console.log(result);
+                            });
+                        });
+                    // Initialize the registration with FMC Token
+                    PushNotifications.register();
+                }
 
             }
         },
